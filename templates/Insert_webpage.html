@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Insert_webpage</h1>
+        <form method="post">
+            {% csrf_token %}
+            <label for="tn">topic_name</label>
+            <input type="text" name="tn" id="tn">
+            <br><br>
+            <label for="nm">name</label>
+            <input type="text" name="nm" id="nm">
+            <br><br>
+            <label for="ur">url</label>
+            <input type="text" name="ur" id="ur">
+            <br><br>
+            <label for="em">email</label>
+            <input type="text" name="em" id="em">
+            <br><br>
+            <input type="submit" value="Insert_webpage">
+        </form>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <QueryDict: {'csrfmiddlewaretoken': ['ceN68SdQA1RkQKtfO2uTTRlAR5aLcwiC04dtIr6PjETQ0KRsJaHfe9F0qK05ZTaL'], 'tn': ['Cricket'], 'nm': ['Dhoni'], 'ur': ['http://Dhoni.in'], 'em': ['dhoni@12gmail.com']}></QueryDict:> -->
